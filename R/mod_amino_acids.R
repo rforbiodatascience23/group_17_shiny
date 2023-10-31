@@ -41,15 +41,15 @@ mod_abundance_ui <- function(id){
         shiny::plotOutput(
           outputId = ns("abundance")
         )
-
       )
-    )
+    ),
+    fluidRow(
+      column(8, "DNA_sequence"),
+      column(4, "random_dna_length", "generate_dna_button")
+    ),
+    "peptide_sequence"
   )
 }
-
-
-
-
 
 
 ## To be copied in the UI
