@@ -13,7 +13,7 @@ app_ui <- function(request) {
       h1("cDOG")
     ),
     tabsetPanel(
-      tabPanel(title = "Abundance",
+      tabPanel(title = "Peptide Sequence",
                mod_abundance_ui("anything")),
       tabPanel(title = "Amino acids",
                #To be copied in the UI
