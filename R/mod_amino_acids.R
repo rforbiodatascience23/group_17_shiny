@@ -24,6 +24,15 @@ mod_amino_acids_server <- function(id){
   })
 }
 
+sidebarLayout(
+  sidebarPanel(
+    "peptide_sequence"
+  ),
+  mainPanel(
+    "plot"
+  )
+)
+
 
 ## To be copied in the UI
 # mod_amino_acids_ui("amino_acids_1")
