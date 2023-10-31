@@ -2,8 +2,6 @@
 #'
 #' @description A shiny Module.
 #'
-#' @importFrom ggplot2 theme
-#' @import cdogma
 #'
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
@@ -18,6 +16,8 @@ mod_amino_acids_ui <- function(id){
 }
 
 #' amino_acids Server Functions
+#' @importFrom ggplot2 theme
+#' @import cdogma
 #'
 #' @noRd
 mod_amino_acids_server <- function(id){
