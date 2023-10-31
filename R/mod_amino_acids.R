@@ -24,14 +24,32 @@ mod_amino_acids_server <- function(id){
   })
 }
 
-sidebarLayout(
-  sidebarPanel(
-    "peptide_sequence"
-  ),
-  mainPanel(
-    "plot"
+mod_abundance_ui <- function(id){
+  ns <- NS(id)
+  tagList(
+    shiny::sidebarLayout(
+      shiny::sidebarPanel(
+        shiny::textAreaInput(
+          inputId = ns("peptide"),
+          label = "Peptide sequence",
+          width = 300,
+          height = 100,
+          placeholder = "Insert peptide sequence"
+        )
+      ),
+      shiny::mainPanel(
+        shiny::plotOutput(
+          outputId = ns("abundance")
+        )
+
+      )
+    )
   )
-)
+}
+
+
+
+
 
 
 ## To be copied in the UI
