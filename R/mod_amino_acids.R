@@ -48,10 +48,6 @@ mod_abundance_ui <- function(id){
 }
 
 
-
-
-
-
 ## To be copied in the UI
 # mod_amino_acids_ui("amino_acids_1")
 
