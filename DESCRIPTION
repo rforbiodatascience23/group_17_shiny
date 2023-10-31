@@ -1,12 +1,8 @@
 Package: cDOG
-Title: An Amazing Shiny App
+Title: cDOG
 Version: 0.0.0.9000
-Authors@R: 
-    person(given = "firstname",
-           family = "lastname",
-           role = c("aut", "cre"),
-           email = "your@email.com")
-Description: What the package does (one paragraph).
+Authors@R: person('All', 'Ofus', email = 's232970@dtu.dk', role = c('cre', 'aut'))
+Description: A bioinformatician's new best friend.
 License: What license is it under?
 Imports: 
     config (>= 0.3.1),
