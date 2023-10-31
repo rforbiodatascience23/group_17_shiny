@@ -1,8 +1,7 @@
 Package: cDOG
 Title: cDOG
 Version: 0.0.0.9000
-Authors@R:
-  c(person(given = "Esben",
+Authors@R: c(person(given = "Esben",
            family = "Thuesen",
            role = c("aut", "cre"),
            email = "s223102@student.dtu.dk"),
