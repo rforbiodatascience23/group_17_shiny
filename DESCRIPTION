@@ -1,7 +1,27 @@
 Package: cDOG
 Title: cDOG
 Version: 0.0.0.9000
-Authors@R: person('All', 'Ofus', email = 's232970@dtu.dk', role = c('cre', 'aut'))
+Authors@R:
+  c(person(given = "Esben",
+           family = "Thuesen",
+           role = c("aut", "cre"),
+           email = "s223102@student.dtu.dk"),
+    person(given = "Carina",
+           family = "Slidsborg",
+           role = "aut",
+           email = "s236244@student.dtu.dk"),
+    person(given = "Josefine",
+           family = "Meineche",
+           role = "aut",
+           email = "s233776@student.dtu.dk"),
+    person(given = "Eszter",
+           family = "Toldi",
+           role = "aut",
+           email = "s232970@student.dtu.dk"),        
+    person(given = "John",
+           family = "Tran",
+           role = "aut",
+           email = "s230339@student.dtu.dk"))
 Description: A bioinformatician's new best friend.
 License: What license is it under?
 Imports: 
