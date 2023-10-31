@@ -2,6 +2,9 @@
 #'
 #' @description A shiny Module.
 #'
+#' @importfrom ggplot2 theme
+#' @import cDOG
+#'
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
 #' @noRd
