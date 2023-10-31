@@ -5,5 +5,8 @@
 #' @import shiny
 #' @noRd
 app_server <- function(input, output, session) {
-  # Your application server logic
+
+  #To be copied in the server
+  mod_amino_acids_server("amino_acids_1")
+
 }

@@ -15,8 +15,9 @@ app_ui <- function(request) {
     tabsetPanel(
       tabPanel(title = "panel1",
                "module1"),
-      tabPanel(title = "panel2",
-               "module2")
+      tabPanel(title = "Amino acids",
+               #To be copied in the UI
+               mod_amino_acids_ui("amino_acids_1"))
     )
   )
 }
