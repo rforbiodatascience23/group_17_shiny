@@ -13,8 +13,8 @@ app_ui <- function(request) {
       h1("cDOG")
     ),
     tabsetPanel(
-      tabPanel(title = "panel1",
-               "module1"),
+      tabPanel(title = "Abundance",
+               mod_abundance_ui("anything")),
       tabPanel(title = "Amino acids",
                #To be copied in the UI
                mod_amino_acids_ui("amino_acids_1"))
