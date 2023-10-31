@@ -3,7 +3,7 @@
 #' @description A shiny Module.
 #'
 #' @importfrom ggplot2 theme
-#' @import cDOG
+#' @import cdogma
 #'
 #' @param id,input,output,session Internal parameters for {shiny}.
 #'
